@@ -267,7 +267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551021131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 7.37, z: -0.008858072}
+  m_LocalPosition: {x: -0.03, y: 5, z: -0.008858072}
   m_LocalScale: {x: 0.9388411, y: 0.9740328, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -882,8 +882,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826851225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0163, y: 3.63, z: -0.008858072}
-  m_LocalScale: {x: 0.40582803, y: 6.9580274, z: 1}
+  m_LocalPosition: {x: -0.0163, y: 2.59, z: -0.008858072}
+  m_LocalScale: {x: 0.40582803, y: 4.234612, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1799013735}
@@ -1056,6 +1056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathLoadTime: 2
+  crassEffect: {fileID: 1390571278}
 --- !u!1 &1390571275
 GameObject:
   m_ObjectHideFlags: 0
@@ -6159,6 +6160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winLoadTime: 1
+  finishEffect: {fileID: 2126431144}
 --- !u!61 &1799013737
 BoxCollider2D:
   m_ObjectHideFlags: 0
